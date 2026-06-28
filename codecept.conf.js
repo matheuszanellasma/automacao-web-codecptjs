@@ -13,16 +13,17 @@ export const config = {
       smartWait: 10000,  // 👈 10 segundos
       navigationTimeout: 60000,  // 👈 60 segundos
       waitForNavigation: 'networkidle'
-    },
-    REST: {
-      endpoint: 'https://serverest.dev',
-      defaultHeaders: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      }
+    }
+
+  },
+  mocha: {
+    reporterOptions: {
+      reportDir: 'output',
+      reportFilename: 'report',
+      html: true,
+      json: true
     }
   },
-
   include: {
     I: './steps_file.js'
   },

@@ -13,6 +13,7 @@
   "devDependencies": {
     "@faker-js/faker": "^10.5.0",
     "codeceptjs": "^4.0.8",
+    "mochawesome": "^7.1.4",
     "playwright": "^1.61.1"
   }
 }
