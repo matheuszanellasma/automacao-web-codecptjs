@@ -7,8 +7,8 @@ export const config = {
     Playwright: {
       browser: 'chromium',
       url: 'https://front.serverest.dev',
-      show: true,
-      headless: false,
+      show: false,
+      headless: true,
       slowMo: 500,
       smartWait: 10000,  // 👈 10 segundos
       navigationTimeout: 60000,  // 👈 60 segundos
