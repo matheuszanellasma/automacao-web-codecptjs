@@ -28,6 +28,12 @@ export const config = {
   },
 
   noGlobals: true,
-  plugins: {},
+  plugins: {
+
+    html: {
+      enabled: true,
+      outputDir: 'output/'
+    }
+  },
   name: 'automacao-web-codeceptJS'
 };

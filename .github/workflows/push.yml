@@ -24,7 +24,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run CodeceptJS smoke tests
-        run: npx codeceptjs run --grep "@smoke"
+        run: npx codeceptjs run --grep "@smoke" --reporter mochawesome
 
       - name: Upload CodeceptJS Report
         uses: actions/upload-artifact@v4
