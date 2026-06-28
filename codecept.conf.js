@@ -31,10 +31,9 @@ export const config = {
   noGlobals: true,
   plugins: {
 
-    html: {
-      enabled: true,
-      outputDir: 'output/'
-    }
+    screenshotOnFail: {
+    enabled: true
+  }
   },
   name: 'automacao-web-codeceptJS'
 };
