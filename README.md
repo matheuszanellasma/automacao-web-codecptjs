@@ -1,3 +1,5 @@
+[![CI](https://github.com/matheuszanellasma/automacao-web-codecptjs/actions/workflows/push.yml/badge.svg)](https://github.com/matheuszanellasma/automacao-web-codecptjs/actions)
+
 # 🎭 Automação Web com CodeceptJS
 
 ## 💻 Sobre o projeto
@@ -12,10 +14,11 @@ Neste projeto, utilizamos as seguintes ferramentas:
 - **[CodeceptJS](https://codecept.io/)**
 - **[Playwright](https://playwright.dev/)** (helper)
 - **Padrão de Projeto: Page Objects Pattern (PoP)**
+- **Faker.js:** geração dinâmica de dados de teste aumentando a cobertura de variações
 
 ## 🌐 Ambiente de Testes
 
-- **URL da Aplicação:** [Serverest](https://front.serverest.dev/)
+- **URL da Aplicação:** Frontend da [Serverest](https://front.serverest.dev/)
 
 ## 📝 Planejamento e Casos de Teste Mapeados
 
