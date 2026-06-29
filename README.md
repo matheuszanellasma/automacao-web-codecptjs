@@ -62,8 +62,8 @@ O projeto possui uma esteira automatizada de integração contínua implementada
 ### Passo a Passo (Configuração e Execução)
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/matheuszanellasma/automacao-web-codecptjs.git
+cd automacao-web-codecptjs
 npm install
 npx playwright install
 npx codeceptjs run
