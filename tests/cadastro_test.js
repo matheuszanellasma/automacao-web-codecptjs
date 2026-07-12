@@ -13,7 +13,7 @@ const usuario_padrao = {
     nome: faker.person.fullName(),
     email: faker.internet.email(),
     senha: faker.internet.password()
-}
+} 
 
 Scenario('Cadastro normal com sucesso @smoke', ({ I }) => {
     const cadastro_page = new CadastroPage(I)
