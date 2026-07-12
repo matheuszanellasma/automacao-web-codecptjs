@@ -24,6 +24,8 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run CodeceptJS smoke tests
+        env:
+          HEADLESS: 'true'
         run: npx codeceptjs run --grep "@smoke" --reporter mochawesome
 
       - name: Upload CodeceptJS Report

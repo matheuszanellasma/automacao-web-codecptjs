@@ -4,8 +4,8 @@ export const config = {
     Playwright: {
       browser: 'chromium',
       url: 'https://front.serverest.dev',
-      show: true,
-      headless: false,
+      show: process.env.HEADLESS !== 'true',
+      headless: process.env.HEADLESS === 'true',
       slowMo: 500,
       smartWait: 10000,
       navigationTimeout: 60000,
