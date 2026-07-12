@@ -6,6 +6,8 @@
 
 Este repositório contém um projeto de automação de testes web. O objetivo principal desta suíte de testes é validar de forma automatizada os fluxos essenciais de entrada de usuários na aplicação, garantindo a qualidade das páginas de Login e Cadastro.
 
+Os testes foram implementados em dois formatos: como **specs JavaScript** tradicionais e reescritos também em **Gherkin (BDD)**, ambos convivendo no mesmo projeto e rodando na mesma suíte.
+
 ## 🛠️ Tecnologias Utilizadas
 
 Neste projeto, utilizamos as seguintes ferramentas:
@@ -13,6 +15,7 @@ Neste projeto, utilizamos as seguintes ferramentas:
 - **[Node.js](https://nodejs.org/en/)**
 - **[CodeceptJS](https://codecept.io/)**
 - **[Playwright](https://playwright.dev/)** (helper)
+- **Gherkin / BDD:** cenários escritos em linguagem natural (`Given/When/Then`), com step definitions reutilizando os Page Objects
 - **Padrão de Projeto: Page Objects Pattern (PoP)**
 - **Faker.js:** geração dinâmica de dados de teste aumentando a cobertura de variações
 
