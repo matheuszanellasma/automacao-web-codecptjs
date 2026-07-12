@@ -14,7 +14,7 @@ export class CadastroPage {
         this.botao_administrador = '#administrador'
 
     }
-
+ 
     get erros() {
         return {
             nomeObrigatorio: 'Nome é obrigatório',
